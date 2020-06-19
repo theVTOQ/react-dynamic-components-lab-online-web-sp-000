@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 
 class Comment extends Component {
   render() {
-    <div>
-      {this.props.commentText}
+    <div lassName="comment">
+      { this.props.commentText }
     </div>
   }
 }
